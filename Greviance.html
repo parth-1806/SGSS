@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<img src="C:\Users\hp\OneDrive\Pictures\MES.jpg" style="width: 150px;height: 150px;"> 
+	<title>Student Greviance Registration</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style type="text/css">
+		label{
+			width: 100px;
+			display: inline-block;
+			margin: 4px;
+		}
+		#container{
+			border-radius: 10px;
+			background:rgb(92, 62, 227);
+			color: whitesmoke;
+			width: 290px;
+			padding: 5px;
+		}
+		h1{
+			text-align: center;
+		}
+		#submit{
+			width: 90%;
+			margin: 10px;
+		}
+        h3{
+            text-align:center;
+        }
+        p{
+            text-align: center;
+        }
+	</style>	
+</head>
+<body>
+        <h3>Grievance Redressal Cell and Anti-Caste Discrimination Cell.</h3>
+        <p>The college has constituted a committee under the chairmanship of Principal and other faculty members as given below to redress the complaints, regarding issues, women harassment, Ante-caste discrimination</p><br>
+         <h3>Objectives of the Grievance Redressal Cell  : </h3>
+        <p>Grievances submitted by the students are addressed systematically with active
+        involvement and cooperation of the respective college/office related with the grievance, maintaining necessary confidentiality in handling process. Grievance Redressal cell of the college has emerged into an appropriate platform for providing support and encouragement to all the students and expresses their grievances freely and frankly. It is striving to ensure a responsive and accountable attitude, secular ambience among the authorities concerned.</p>
+            
+    <div id="container">
+		<div class="row col-md-21 col-md-offset-18">
+			<div class="panel panel.primary">
+				<div class="panel.heading">
+					<h1>Student Grievance Registration Form</h1>
+					
+				</div>
+				<br><br>
+				<div>
+				<div class="panel.body">
+					<form action="connect.php" method="post">
+						<div class="form-group">
+							<label><b>First Name:</b></label>
+							<input type="text" class="form-control" id="firstName" name="firstName"/>
+						</div>
+
+						<br>
+
+						<div class="form-group">
+							<label><b>Last Name:</b></label>
+							<input type="text" class="form-control" id="lastName" name="lastName" />
+						</div>
+
+						<br>
+
+						<div class="form-group">
+							<label for="course"><b>Course Name:</b></label><br>
+							<div>
+							<label for="BBA" class="radio-inline"><input type="radio" name="course" name="BBA" id="BBA">BBA</label>
+
+							<label for="BBA-IB" class="radio-inline"><input type="radio" name="course" name="BBA-IB" id="BBA-IB">BBA-IB</label>
+
+							<label for="BBA-CA" class="radio-inline"><input type="radio" name="course" name="BBA-CA" id="BBA-CA">BBA-CA</label>
+							</div>
+						</div>
+
+						<br>
+						<div class="form-group">
+							<label><b>Greviance:</b></label>
+							<input type="text" class="form-control" id="Greviance" name="Greviance"/>
+						</div><br>
+						<input type="Submit" class="btn btn-primary" id="submit">
+					</form>
+				</div>
+
+				<div class="panel.footer; text-right">
+					<small>MES Senior College</small>
+				</div>
+			</div>
+            
+
+	</div>
+  
+</body>
+</html>
